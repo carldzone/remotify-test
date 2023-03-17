@@ -2,3 +2,5 @@ venv/
 *.json
 *.xlsx
 __init__.py
+/__pychache__
+geckdriver.log
