@@ -7,10 +7,10 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-## For xlsx output 
-# FEED_EXPORTERS = {
-#     'xlsx': 'scrapy_xlsx.XlsxItemExporter',
-# }
+# For xlsx output 
+FEED_EXPORTERS = {
+    'xlsx': 'scrapy_xlsx.XlsxItemExporter',
+}
 
 # ######################
 
