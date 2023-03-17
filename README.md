@@ -43,6 +43,7 @@ pip install -r requirements.txt
 
 ## 1. Able to create a complete scraping bot and; 2. Able to Send concurrent requests
 ***NOTE: Make sure that your own Mozilla Firefox web browser is installed.***
+You can download Mozilla Firefox browser [here](https://www.mozilla.org/en-US/firefox/new/).
 ```
 cd py_scrapy_selenium
 scrapy crawl scraping -O ScrapingSpider_`date +\%Y\%m\%d_\%H\%M\%S`.json
